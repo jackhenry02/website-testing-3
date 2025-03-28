@@ -24924,7 +24924,7 @@ a.ui.nag {
     margin-left:.5em
 }
 
-[data-position ~ =bottom][data-tooltip]:before {
+[data-position~=bottom][data-tooltip]:before {
     background: #fff;
     -webkit-box-shadow: -1px -1px 0 0 #bababc;
     -moz-box-shadow: -1px -1px 0 0 #bababc;
@@ -24958,11 +24958,11 @@ a.ui.nag {
     box-shadow:-1px 1px 0 0 #bababc
 }
 
-[data-position ~ =top][data-tooltip]:before {
+[data-position~=top][data-tooltip]:before {
     background:#fff
 }
 
-[data-inverted][data-position ~ =bottom][data-tooltip]:before {
+[data-inverted][data-position~=bottom][data-tooltip]:before {
     background: #1b1c1d;
     -webkit-box-shadow: -1px -1px 0 0 #bababc;
     -moz-box-shadow: -1px -1px 0 0 #bababc;
@@ -24983,11 +24983,11 @@ a.ui.nag {
     box-shadow:-1px 1px 0 0 #bababc
 }
 
-[data-inverted][data-position ~ =top][data-tooltip]:before {
+[data-inverted][data-position~=top][data-tooltip]:before {
     background:#1b1c1d
 }
 
-[data-position ~ =bottom][data-tooltip]:after {
+[data-position~=bottom][data-tooltip]:after {
     -webkit-transform-origin: center top;
     -moz-transform-origin: center top;
     -ms-transform-origin: center top;
