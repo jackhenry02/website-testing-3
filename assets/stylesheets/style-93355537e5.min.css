@@ -1363,7 +1363,7 @@ input::selection, textarea::selection {
     border-radius: .28571429rem 0 0
 }
 
-.ui[class * ="right attached"].buttons .button:last-child {
+.ui[class*="right attached"].buttons .button:last-child {
     margin-left: -1px;
     -moz-border-radius: 0 0 0 .28571429rem;
     border-radius:0 0 0 .28571429rem
