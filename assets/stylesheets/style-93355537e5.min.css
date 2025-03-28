@@ -665,21 +665,21 @@ input::selection, textarea::selection {
     height: 1.85em
 }
 
-.ui.labeled.button:not([class * ="left labeled"]) > .button {
+.ui.labeled.button:not([class*="left labeled"]) > .button {
     -moz-border-radius-topright: 0;
     border-top-right-radius: 0;
     -moz-border-radius-bottomright: 0;
     border-bottom-right-radius: 0
 }
 
-.ui.labeled.button:not([class * ="left labeled"]) > .label, .ui[class * ="left labeled"].button > .button {
+.ui.labeled.button:not([class*="left labeled"]) > .label, .ui[class*="left labeled"].button > .button {
     -moz-border-radius-topleft: 0;
     border-top-left-radius: 0;
     -moz-border-radius-bottomleft: 0;
     border-bottom-left-radius: 0
 }
 
-.ui[class * ="left labeled"].button > .label {
+.ui[class*="left labeled"].button > .label {
     -moz-border-radius-topright: 0;
     border-top-right-radius: 0;
     -moz-border-radius-bottomright: 0;
@@ -874,13 +874,13 @@ input::selection, textarea::selection {
     margin: 0 -.21428571em 0 .42857143em
 }
 
-.ui[class * ="left floated"].button, .ui[class * ="left floated"].buttons {
+.ui[class*="left floated"].button, .ui[class*="left floated"].buttons {
     float: left;
     margin-left: 0;
     margin-right: .25em
 }
 
-.ui[class * ="right floated"].button, .ui[class * ="right floated"].buttons {
+.ui[class*="right floated"].button, .ui[class*="right floated"].buttons {
     float: right;
     margin-right: 0;
     margin-left:.25em
@@ -1094,12 +1094,12 @@ input::selection, textarea::selection {
     left: 0
 }
 
-.ui[class * ="right labeled"].icon.button {
+.ui[class*="right labeled"].icon.button {
     padding-right: 4.07142857em !important;
     padding-left: 1.5em !important
 }
 
-.ui[class * ="right labeled"].icon.button > .icon {
+.ui[class*="right labeled"].icon.button > .icon {
     left: auto;
     right: 0;
     -moz-border-radius: 0;
@@ -1155,7 +1155,7 @@ input::selection, textarea::selection {
     border-radius: 0 0 0 .28571429rem
 }
 
-.ui.fluid[class * ="left labeled"].icon.button, .ui.fluid[class * ="right labeled"].icon.button {
+.ui.fluid[class*="left labeled"].icon.button, .ui.fluid[class*="right labeled"].icon.button {
     padding-left: 1.5em !important;
     padding-right:1.5em !important
 }
@@ -1289,39 +1289,39 @@ input::selection, textarea::selection {
     border-radius: 0
 }
 
-.ui[class * ="top attached"].buttons {
+.ui[class*="top attached"].buttons {
     margin-bottom: -1px;
     -moz-border-radius: .28571429rem .28571429rem 0 0;
     border-radius: .28571429rem .28571429rem 0 0
 }
 
-.ui[class * ="top attached"].buttons .button:first-child {
+.ui[class*="top attached"].buttons .button:first-child {
     -moz-border-radius: .28571429rem 0 0;
     border-radius: .28571429rem 0 0
 }
 
-.ui[class * ="top attached"].buttons .button:last-child {
+.ui[class*="top attached"].buttons .button:last-child {
     -moz-border-radius: 0 .28571429rem 0 0;
     border-radius: 0 .28571429rem 0 0
 }
 
-.ui[class * ="bottom attached"].buttons {
+.ui[class*="bottom attached"].buttons {
     margin-top: -1px;
     -moz-border-radius: 0 0 .28571429rem .28571429rem;
     border-radius: 0 0 .28571429rem .28571429rem
 }
 
-.ui[class * ="bottom attached"].buttons .button:first-child {
+.ui[class*="bottom attached"].buttons .button:first-child {
     -moz-border-radius: 0 0 0 .28571429rem;
     border-radius: 0 0 0 .28571429rem
 }
 
-.ui[class * ="bottom attached"].buttons .button:last-child {
+.ui[class*="bottom attached"].buttons .button:last-child {
     -moz-border-radius: 0 0 .28571429rem;
     border-radius: 0 0 .28571429rem
 }
 
-.ui[class * ="left attached"].buttons {
+.ui[class*="left attached"].buttons {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: -webkit-inline-flex;
@@ -1333,19 +1333,19 @@ input::selection, textarea::selection {
     border-radius: 0 .28571429rem .28571429rem 0
 }
 
-.ui[class * ="left attached"].buttons .button:first-child {
+.ui[class*="left attached"].buttons .button:first-child {
     margin-left: -1px;
     -moz-border-radius: 0 .28571429rem 0 0;
     border-radius: 0 .28571429rem 0 0
 }
 
-.ui[class * ="left attached"].buttons .button:last-child {
+.ui[class*="left attached"].buttons .button:last-child {
     margin-left: -1px;
     -moz-border-radius: 0 0 .28571429rem;
     border-radius: 0 0 .28571429rem
 }
 
-.ui[class * ="right attached"].buttons {
+.ui[class*="right attached"].buttons {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: -webkit-inline-flex;
@@ -1357,7 +1357,7 @@ input::selection, textarea::selection {
     border-radius: .28571429rem 0 0 .28571429rem
 }
 
-.ui[class * ="right attached"].buttons .button:first-child {
+.ui[class*="right attached"].buttons .button:first-child {
     margin-left: -1px;
     -moz-border-radius: .28571429rem 0 0;
     border-radius: .28571429rem 0 0
