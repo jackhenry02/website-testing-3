@@ -5,6 +5,4 @@ https://jackhenry02.github.io/website-testing-3/
 Testing for a casino company website
 
 
-Next steps:
-- debugging stylesheet
-- bulk debugging of parse error 
+This version is a bit of a joke website for some fun and to show I can edit
